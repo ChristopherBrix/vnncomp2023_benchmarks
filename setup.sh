@@ -5,7 +5,7 @@ echo "Moving large benchmark files"
 cd large_models/vnncomp2023/
 for d in *
 do
-    cd $d/seed_676744409/;
+    cd $d/seed_896832480/;
     mkdir -p ../../../../benchmarks/$d/onnx
     mkdir -p ../../../../benchmarks/$d/vnnlib
     find . -type f -exec mv "{}" "../../../../benchmarks/$d/{}" \;
